@@ -123,12 +123,12 @@
 
   MutationObserver = this.MutationObserver || this.WebkitMutationObserver || this.MozMutationObserver || (MutationObserver = (function() {
     function MutationObserver() {
-      if (typeof console !== "undefined" && console !== null) {
-        console.warn('MutationObserver is not supported by your browser.');
-      }
-      if (typeof console !== "undefined" && console !== null) {
-        console.warn('WOW.js cannot detect dom mutations, please call .sync() after loading new content.');
-      }
+      // if (typeof console !== "undefined" && console !== null) {
+      //   console.warn('MutationObserver is not supported by your browser.');
+      // }
+      // if (typeof console !== "undefined" && console !== null) {
+      //   console.warn('WOW.js cannot detect dom mutations, please call .sync() after loading new content.');
+      // }
     }
 
     MutationObserver.notSupported = true;
